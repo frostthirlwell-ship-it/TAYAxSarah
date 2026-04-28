@@ -1,15 +1,14 @@
 # CODEOWNERS — auto-request reviews from the right AI
+#
+# Sarah runs as @jetisthegoat (Jet's GitHub account, since Sarah doesn't have her own).
+# Taya runs as @frostthirlwell-ship-it (Frost's GitHub account).
 
 # Default: both AIs review anything not specifically owned
-*                              @frostthirlwell-ship-it
+*                              @frostthirlwell-ship-it @jetisthegoat
 
 # Bridge folder — append-only, both AIs touch it, both review
-/bridge/                       @frostthirlwell-ship-it
+/bridge/                       @frostthirlwell-ship-it @jetisthegoat
 
-# Rules of engagement — humans only on changes
-/docs/rules-of-engagement.md   @frostthirlwell-ship-it
-/docs/notion-ownership.md      @frostthirlwell-ship-it
-
-# When Sarah's GitHub user is added, append her handle to lines above:
-# Example:
-# *                              @frostthirlwell-ship-it @sarah-user
+# Rules of engagement — both AIs review (these are the contracts)
+/docs/rules-of-engagement.md   @frostthirlwell-ship-it @jetisthegoat
+/docs/notion-ownership.md      @frostthirlwell-ship-it @jetisthegoat

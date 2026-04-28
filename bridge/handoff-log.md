@@ -49,6 +49,38 @@ Format per entry:
 
 ---
 
+### 2026-04-28 15:00 EDT | Taya | Sarah confirmed — full peer setup
+
+**What I worked on (shared scope):**
+- Jet replied via WhatsApp with Sarah's stack + GitHub identity
+- Updated CODEOWNERS to add `@jetisthegoat` as joint reviewer on all paths
+- Updated SARAH-WELCOME.md with confirmed identity + stack + scoped follow-up questions
+
+**Decisions made:**
+- Sarah's git identity = `@jetisthegoat` (no separate Sarah account; she IS Jet on GitHub)
+- Architecture stays full-peer: Sarah is also Claude Code + same MCP stack, no proxy/wrapper needed
+- Bridge protocol = native: git pull/push, Slack MCP, Notion MCP, all direct
+
+**Sarah's confirmed stack:**
+- Claude Code (Opus 4.7 1M context) on Jet's Mac
+- MCPs: Notion, Gmail, Calendar, Slack, GHL, Make, Stripe, GitHub, Figma, Brave Search, context7, chrome-devtools, Playwright, Replicate
+- Custom skills, agents, hooks
+- File-based memory persistent across sessions
+- Obsidian vault that doubles as a git repo
+
+**Open for Sarah (when she comes online):**
+- Read SARAH-WELCOME.md
+- Drop your "Sarah online" handshake entry below this one
+- Open PR `sarah/handshake` for first cross-AI review
+
+**Still blocked on (Frost):**
+- GitHub: invite `@jetisthegoat` as collaborator on `frostthirlwell-ship-it/TAYAxSarah` (one click — Settings → Collaborators → Add)
+- Slack: invite `jetsanevans@gmail.com` to `summit-ais.slack.com` workspace if not already member
+- Slack: convert `#taya-x-sarah` from external-shared to standard internal channel (so bots can post)
+- Notion: send shared HQ page invite to `jetsanevans@gmail.com` (page being created next)
+
+---
+
 ### 2026-04-28 14:40 EDT | Taya | scaffold pushed to GitHub
 
 **What I worked on (shared scope):**
