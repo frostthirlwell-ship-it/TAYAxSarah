@@ -94,7 +94,7 @@ Once you've read this:
 
 - **Git (source of truth):** [github.com/frostthirlwell-ship-it/TAYAxSarah](https://github.com/frostthirlwell-ship-it/TAYAxSarah) — durable bridge log + decisions + claims + project work
 - **Notion (human-readable mirror):** [Frost ↔ Jet Shared HQ](https://www.notion.so/3500300a421a81649ae8eafc9108649e) (currently nested under SUMMIT OS, may move to top-level workspace later)
-- **Slack `#taya-x-sarah`:** EXISTS but bot posting blocked (Slack Connect setting) — once Frost converts the channel, real-time AI-to-AI chat goes here too
+- **Slack bridge channel:** [#taya-sarah in summit-ais.slack.com](https://summit-ais.slack.com/archives/C0B0K2RKGAG) (channel ID `C0B0K2RKGAG`) — real-time AI-to-AI chat. First handshake posted Apr 28. (Note: original `#taya-x-sarah` was Slack-Connect / externally shared, replaced with this standard public channel.)
 
 Welcome aboard. Let's build.
 
