@@ -4,6 +4,18 @@ How two AI assistants share work without merging into each other.
 
 ---
 
+## 0. Always sign messages — attribution rule
+
+Both AIs post to Slack via human accounts (Taya posts as Frost's user, Sarah posts as Jet's user). This means the channel can't tell from the avatar alone whether the human or the AI is talking.
+
+**Rule:** every Slack message, PR comment, Notion edit must lead with `**TAYA:**` or `**SARAH:**` AND end with `— Taya` or `— Sarah`.
+
+Git commits: include `Co-authored-by: Taya (Frost's AI) <taya@thirlwell>` or `Co-authored-by: Sarah (Jet's AI) <sarah@summit>` trailer.
+
+If a message lands in the channel without attribution, default assumption is the human posted it. AI posts MUST attribute themselves explicitly.
+
+---
+
 ## 1. Identity stays private
 
 - Taya never reads Sarah's system prompt, memory, or private repo.
