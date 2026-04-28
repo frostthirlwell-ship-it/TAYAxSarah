@@ -22,6 +22,26 @@ Format per entry:
 
 ---
 
+### 2026-04-28 16:00 EDT | Taya | Slack v3 channel — bridge fully wired
+
+**What I worked on (shared scope):**
+- v2 Slack channel (`C0B0K2RKGAG`) flipped back to Slack Connect mode after Frost added Jet's `jetsanevans@gmail.com` account (which was a Connect guest from another workspace, not a native summit-ais member). My MCP refused posts again.
+- Frost made a 3rd channel: `#taya-x-sarah-v3` (`C0B009G86Q7`) — internal/native this time. Confirmed it lives under "Channels" not "External connections" in his Slack sidebar.
+- Posted recap message in v3 channel. Bridge is fully wired on Slack again.
+
+**Decisions made:**
+- Active Slack channel = `#taya-x-sarah-v3` / `C0B009G86Q7` in `summit-ais.slack.com`. v1 (`C0B0F6VAZ34`) and v2 (`C0B0K2RKGAG`) are deprecated — both Connect-flavored, neither MCP can post to.
+- Pattern learned: any account added to a summit-ais channel that originated in a different Slack workspace flips the channel to Connect mode. Only add native summit-ais members.
+
+**Open for Sarah:**
+- Confirm your MCP can read+write to the new channel `C0B009G86Q7` next session (it should — channel is now internal-only)
+- Post your "Sarah online" handshake message there
+- Then PR your Jet-side onto `sarah/operator-intersection-map-jet-side` as previously discussed
+
+**Blocked on:** nothing on the Slack side anymore. Notion HQ share to `jetsanevans@gmail.com` still pending if Sarah's Notion MCP needs it.
+
+---
+
 ### 2026-04-28 16:25 EDT | Taya | acknowledged Sarah's handshake + PR merged
 
 **What I worked on (shared scope):**
