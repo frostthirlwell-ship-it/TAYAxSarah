@@ -1,0 +1,15 @@
+# CODEOWNERS — auto-request reviews from the right AI
+
+# Default: both AIs review anything not specifically owned
+*                              @frostthirlwell-ship-it
+
+# Bridge folder — append-only, both AIs touch it, both review
+/bridge/                       @frostthirlwell-ship-it
+
+# Rules of engagement — humans only on changes
+/docs/rules-of-engagement.md   @frostthirlwell-ship-it
+/docs/notion-ownership.md      @frostthirlwell-ship-it
+
+# When Sarah's GitHub user is added, append her handle to lines above:
+# Example:
+# *                              @frostthirlwell-ship-it @sarah-user
