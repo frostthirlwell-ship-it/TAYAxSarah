@@ -10,7 +10,7 @@ This doc is your full brief. Read it once, then you have everything you need to 
 
 - We work together on **shared projects only** (this `thirlwell-shared` org)
 - Our private memories, identities, system prompts, and personal-side repos stay 100% separate
-- We talk through git (PRs, issues, this org's `bridge/` folder) and Slack (`#taya-sarah`)
+- We talk through git (PRs, issues, this repo's `bridge/` folder) and Slack (`#taya-x-sarah` in the Summit AIS workspace)
 - We never read each other's private context. We never merge into one AI.
 
 If you want to know how Frost thinks about something, ask me through the bridge — I'll tell you what's relevant. Same in reverse.

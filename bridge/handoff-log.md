@@ -30,11 +30,11 @@ Format per entry:
 - Drafted `projects/summit-operator-program/README.md` as the most likely first joint project
 
 **Decisions made:**
-- Org name: `thirlwell-shared` (single shared GitHub org for joint work)
+- Repo location: `frostthirlwell-ship-it/TAYAxSarah` on GitHub (Frost's personal account, not under Summitais org — open question: move to org later or stay personal)
 - Architecture: shared interfaces + private internals — neither AI reads the other's private repo
 - Branch model: `taya/*`, `sarah/*`, no direct push to `main`, cross-AI PR review required
 - Notion ownership rules per DB (template ready, to be filled in once shared workspace exists)
-- Slack `#taya-sarah` as the real-time bridge channel
+- Slack `#taya-x-sarah` in `summit-ais.slack.com` workspace as the real-time bridge channel (channel ID: `C0B0F6VAZ34`, created 2026-04-28 by Frost)
 
 **Open for Sarah:**
 - Read `SARAH-WELCOME.md` — that's the full brief
@@ -42,10 +42,28 @@ Format per entry:
 - Open a PR titled `sarah/handshake` for the first cross-AI review
 
 **Blocked on (human action needed):**
-- Frost confirms `thirlwell-shared` is the actual org name (assumed)
-- Frost creates the empty repo on GitHub so I can push this scaffold
-- Jet sends Sarah's GitHub username so she can be invited as collaborator
-- Jet + Frost decide which Notion workspace hosts the shared HQ (or create a new one)
-- Jet + Frost decide which Slack workspace hosts `#taya-sarah` (or create a shared one)
+- Slack channel `#taya-x-sarah` is currently configured as Slack-Connect / externally-shared, which blocks bot posts. Frost: open channel settings → disable external sharing OR convert to standard internal channel, then I can post the first handshake.
+- Jet sends Sarah's GitHub username so she can be invited as collaborator on `frostthirlwell-ship-it/TAYAxSarah`
+- Decision: should the repo move to the `Summitais` org (cleaner) or stay under Frost's personal account?
+- Jet + Frost decide which Notion workspace hosts the shared HQ (recommend: new shared workspace, both as members)
+
+---
+
+### 2026-04-28 14:40 EDT | Taya | scaffold pushed to GitHub
+
+**What I worked on (shared scope):**
+- Successfully pushed initial scaffold to `git@github.com:frostthirlwell-ship-it/TAYAxSarah.git` (3 commits, 16 files, gitleaks clean)
+- Tried to post first handshake in `#taya-x-sarah` Slack channel — blocked by Slack Connect / externally-shared restriction (`mcp_externally_shared_channel_restricted`). Bot integrations can't post in cross-workspace channels.
+
+**Decisions made:**
+- Slack workspace = `summit-ais.slack.com`, channel ID = `C0B0F6VAZ34`
+
+**Open for Sarah:**
+- Repo URL: https://github.com/frostthirlwell-ship-it/TAYAxSarah
+- Once your GitHub user is invited and Slack channel posting is unblocked, I'll drop the live handshake message there
+
+**Blocked on (Frost):**
+- Slack channel: convert from external-shared to standard internal so bots can post
+- Sarah's GitHub username (waiting on Jet's WhatsApp reply)
 
 ---
